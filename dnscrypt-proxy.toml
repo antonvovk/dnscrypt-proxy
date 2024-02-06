@@ -1,11 +1,14 @@
 listen_addresses = ['0.0.0.0:5353']
 cache = false
+cache_size = 0
 
 [static]
 [static.'quad9.primary']
 stamp = 'sdns://AgMAAAAAAAAABzkuOS45LjkgKhX11qy258CQGt5Ou8dDsszUiQMrRuFkLwaTaDABJYoSZG5zOS5xdWFkOS5uZXQ6NDQzCi9kbnMtcXVlcnk'
 [static.'quad9.secondary']
 stamp = 'sdns://AgMAAAAAAAAADzE0OS4xMTIuMTEyLjExMiAqFfXWrLbnwJAa3k67x0OyzNSJAytG4WQvBpNoMAElihFkbnMucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5'
+[static.'mullvad-doh']
+stamp = 'sdns://AgcAAAAAAAAACzE5NC4yNDIuMi4yAA9kbnMubXVsbHZhZC5uZXQKL2Rucy1xdWVyeQ'
 
 ###############################################
 ##                                            #

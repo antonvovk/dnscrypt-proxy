@@ -12,7 +12,7 @@ USER alpine
 EXPOSE 5353/tcp
 EXPOSE 5353/udp
 
-HEALTHCHECK --interval=10s --timeout=10s --start-period=5s --retries=3 CMD drill -p 5353 @127.0.0.1 cloudflare.com || exit 1
+HEALTHCHECK --interval=10s --timeout=10s --start-period=5s --retries=3 CMD drill -p 5353 @127.0.0.1 google.com || exit 1
 
 COPY entrypoint.sh /entrypoint.sh
 
